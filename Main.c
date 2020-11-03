@@ -81,6 +81,12 @@ extern void remove_occurrences(char* str, char character);
 
 char str[] = "The Quick Brown Fox Jumps Over a Lazy Dog";
 
+// Question 7 declarations
+extern void string_swap(char** first, char** second);
+
+char* first_string = "Chicken is a test";
+char* second_string = "Cake is good";
+
 int main(void) {
 	// Question 1 Testing
 	Q1_SysTick_Init();
@@ -112,6 +118,9 @@ int main(void) {
 	
 	// Question 6 Testing
 	remove_occurrences(str, 'o');
+	
+	// Question 7 Testing
+	string_swap(&first_string, &second_string);
 	
 	while (1) {
 	}
