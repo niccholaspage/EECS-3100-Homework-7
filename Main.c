@@ -111,7 +111,7 @@ int main(void) {
 	strcpy(dst, src);
 	
 	// Question 6 Testing
-	remove_occurrences(str, 'p');
+	remove_occurrences(str, 'o');
 	
 	while (1) {
 	}
