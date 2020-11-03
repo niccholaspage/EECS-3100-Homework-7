@@ -87,6 +87,11 @@ extern void string_swap(char** first, char** second);
 char* first_string = "Chicken is a test";
 char* second_string = "Cake is good";
 
+// Question 8 declarations
+extern signed int max4(signed int num1, signed int num2, signed int num3, signed int num4);
+
+signed int result = 0;
+
 int main(void) {
 	// Question 1 Testing
 	Q1_SysTick_Init();
@@ -121,6 +126,12 @@ int main(void) {
 	
 	// Question 7 Testing
 	string_swap(&first_string, &second_string);
+	
+	// Question 8 Testing
+	result = max4(1, 100, 200, 99);
+	result = max4(99, 1, 100, 200);
+	result = max4(200, 99, 1, 100);
+	result = max4(100, 200, 99, 1);
 	
 	while (1) {
 	}

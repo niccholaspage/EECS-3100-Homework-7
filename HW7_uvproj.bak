@@ -420,6 +420,11 @@
               <FileType>2</FileType>
               <FilePath>.\stringcopy.s</FilePath>
             </File>
+            <File>
+              <FileName>remove_occurences.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\remove_occurences.s</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>

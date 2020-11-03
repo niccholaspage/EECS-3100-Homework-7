@@ -425,6 +425,16 @@
               <FileType>2</FileType>
               <FilePath>.\remove_occurences.s</FilePath>
             </File>
+            <File>
+              <FileName>string_swap.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\string_swap.s</FilePath>
+            </File>
+            <File>
+              <FileName>max_four.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\max_four.s</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>
