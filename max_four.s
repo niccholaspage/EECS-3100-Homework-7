@@ -8,6 +8,6 @@ max4	PROC
 	MOVLT R2, R3 ; If R2 is less than R3, set R2 = R3
 	CMP R0, R2 ; Compares the two king integers to each other
 	MOVLT R0, R2 ; If R0 is less than R2, set R0 = R2
-	BX LR
+	BX LR ; go back to the caller
 	ENDP
 	END

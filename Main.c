@@ -1,3 +1,17 @@
+// *******************************************************************
+// main.s
+// Author: Nicholas Nassar
+// Date Created: 10/27/2020
+// Last Modified: 11/3/2020
+// Section Number: Lecture 001, Lab 002
+// Instructor: Devinder Kaur
+// Homework Number: 7
+// Includes the functions and assembly subroutines
+// that implements the functionality required by
+// homework #7.
+// *******************************************************************
+
+
 #include <stdint.h>
 
 #define NVIC_ST_CTRL_R		(*((volatile uint32_t *)0xE000E010)) 
