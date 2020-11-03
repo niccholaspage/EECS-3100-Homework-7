@@ -67,6 +67,20 @@ STyp class[SIZE];
 unsigned long studentIterator;
 unsigned long average;
 
+// Question 5 declarations
+// Fixed - strcpy needs to be defined as an extern function
+// so that the compiler knows that this function exists as an
+// assembly procedure.
+extern void strcpy(char* destination, char* source);
+
+char src[25] = "Hello";
+char dst[25];
+
+// Question 6 declarations
+extern void remove_occurrences(char* str, char character);
+
+char str[] = "The Quick Brown Fox Jumps Over a Lazy Dog";
+
 int main(void) {
 	// Question 1 Testing
 	Q1_SysTick_Init();
@@ -94,10 +108,10 @@ int main(void) {
 	average = Grades(class); // 75 is in fact the average, so this works!
 	
 	// Question 5 Testing
-	char src[25] = "Hello";
-	char dst[25];
-
 	strcpy(dst, src);
+	
+	// Question 6 Testing
+	remove_occurrences(str, 'p');
 	
 	while (1) {
 	}
